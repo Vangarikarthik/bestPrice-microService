@@ -10,7 +10,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-mongoose.connect('mongodb://localhost:27017/mobiles', {
+mongoose.connect('mongodb://mongodb:27017/mobiles', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
